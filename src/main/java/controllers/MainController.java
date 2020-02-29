@@ -1,3 +1,5 @@
+package controllers;
+
 import ciphers.Cipher;
 import ciphers.impl.CesarCipher;
 import javafx.fxml.FXML;
@@ -6,7 +8,7 @@ import javafx.scene.control.TextArea;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class TestController implements Initializable { //przez to że rozszerzamy Initializable, to pola stają się dynamiczne, dzięki temu nasze zmienne sa parsowane na fxml
+public class MainController implements Initializable { //przez to że rozszerzamy Initializable, to pola stają się dynamiczne, dzięki temu nasze zmienne sa parsowane na fxml
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
