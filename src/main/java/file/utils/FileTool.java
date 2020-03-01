@@ -1,7 +1,6 @@
 package file.utils;
 
 import java.io.*;
-import java.nio.file.Paths;
 
 public class FileTool { //w metodzie będzie przyjmował ścieżke do pliku, żeby zwrócic stringa sformatowanego jak tekst
     public static String getFileContent(String pathToFile) {
